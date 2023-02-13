@@ -61,7 +61,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
     except Exception:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ](https://t.me/LazyDeveloperSupport).",
+            text="ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ](https://t.me/SM_Movies_Request).",
             disable_web_page_preview=True
         )
         return 200
